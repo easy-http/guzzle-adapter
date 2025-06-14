@@ -10,26 +10,26 @@
 </p>
 
 <p align="center">
-    :bookmark: Consistent interface for http clients
+    :bookmark: Standardized HTTP client interface
 </p>
 
 <p align="center">
-    :rocket: Change easily from one client to another using http layer contracts
+    :rocket: Seamlessly switch between HTTP clients using the adapter pattern
 </p>
 
-# Guzzle Layer
+# Guzzle HTTP Adapter
 
 <a href="https://sonarcloud.io/component_measures?metric=security_rating&branch=1.x&id=easy-http_guzzle-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_guzzle-layer&metric=security_rating&branch=1.x" alt="Bugs"></a>
 <a href="https://sonarcloud.io/component_measures?metric=bugs&branch=1.x&id=easy-http_guzzle-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_guzzle-layer&metric=bugs&branch=1.x" alt="Bugs"></a>
 <a href="https://sonarcloud.io/component_measures?metric=code_smells&branch=1.x&id=easy-http_guzzle-layer"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_guzzle-layer&metric=code_smells&branch=1.x" alt="Bugs"></a>
 
-This is an HTTP layer for Guzzle Client based on [HTTP layer contracts](https://github.com/easy-http/layer-contracts).
-These contracts standardize the way you consume HTTP clients like Guzzle, Symfony, and others with a consistent interface. No matter what client you are using,
-the methods you have to execute to do the job are the same for all!!.
+This is an HTTP adapter for Guzzle Client that implements the [HTTP client contracts](https://github.com/easy-http/layer-contracts).
+These contracts standardize the way you consume HTTP clients like Guzzle, Symfony, and others by providing a consistent interface. The adapter pattern ensures that regardless of which HTTP client you're using,
+the methods and behavior remain consistent across all implementations.
 
-:books: Check out the [Documentation](https://easy-http.com/docs) to learn how to use any layer that implements these contracts.
+:books: Check out the [Documentation](https://easy-http.com/docs) to learn how to use any adapter that implements these contracts.
 
-This library supports the following versions of Guzzle Http Client.
+This adapter supports the following versions of Guzzle HTTP Client:
 
 <a href="#tada-php-support" title="Guzzle Version Supported"><img alt="PHP Versions Supported" src="https://img.shields.io/badge/guzzle-6.x-blue"></a>
 <a href="#tada-php-support" title="Guzzle Version Supported"><img alt="PHP Versions Supported" src="https://img.shields.io/badge/guzzle-7.x-blue"></a>
@@ -44,5 +44,5 @@ composer require easy-http/guzzle-layer
 
 # Usage
 
-This layer as well as any other uses the [HTTP Layer Contracts](https://github.com/easy-http/layer-contracts).
-You can check all behavior for the current version at [Easy Http Documentation](https://easy-http.com/docs).
+This adapter implements the [HTTP Client Contracts](https://github.com/easy-http/layer-contracts).
+You can check all available features and behavior for the current version at [Easy Http Documentation](https://easy-http.com/docs).

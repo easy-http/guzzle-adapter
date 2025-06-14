@@ -1,11 +1,13 @@
 {
     "name": "easy-http/guzzle-layer",
-    "description": "Http layer for Guzzle Client",
+    "description": "HTTP adapter for Guzzle Client",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "PHP",
-        "HTTP Client"
+        "HTTP Client",
+        "Adapter",
+        "Guzzle"
     ],
     "homepage": "https://pleets.org",
     "support": {
