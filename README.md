@@ -2,8 +2,8 @@
 
 <p align="center">
 <a href="https://github.com/easy-http/guzzle-adapter/actions/workflows/tests.yml"><img src="https://github.com/easy-http/guzzle-adapter/actions/workflows/tests.yml/badge.svg?branch=2.x" alt="Build Status"></a>
-<a href="https://scrutinizer-ci.com/g/easy-http/guzzle-adapter"><img src="https://img.shields.io/scrutinizer/g/easy-http/guzzle-adapter.svg" alt="Code Quality"></a>
-<a href="https://scrutinizer-ci.com/g/easy-http/guzzle-adapter/?branch=master"><img src="https://scrutinizer-ci.com/g/easy-http/guzzle-adapter/badges/coverage.png?b=master" alt="Code Coverage"></a>
+<a href="https://sonarcloud.io/component_measures?metric=reliability_rating&branch=2.x&id=easy-http_guzzle-adapter"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_guzzle-adapter&metric=reliability_rating&branch=2.x" alt="Bugs"></a>
+<a href="https://sonarcloud.io/component_measures?metric=coverage&branch=2.x&id=easy-http_guzzle-adapter"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_guzzle-adapter&metric=coverage&branch=2.x" alt="Bugs"></a>
 </p>
 <p align="center">
     <a href="#tada-php-support" title="PHP Versions Supported"><img alt="PHP Versions Supported" src="https://img.shields.io/badge/php-7.4%20to%208.3-777bb3.svg?logo=php&logoColor=white&labelColor=555555"></a>
