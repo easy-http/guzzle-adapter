@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use EasyHttp\GuzzleLayer\GuzzleAdapter;
-use EasyHttp\GuzzleLayer\GuzzleRequest;
+use EasyHttp\GuzzleAdapter\GuzzleAdapter;
+use EasyHttp\GuzzleAdapter\GuzzleRequest;
 use EasyHttp\LayerContracts\Common\SecurityContext;
 use EasyHttp\LayerContracts\Exceptions\HttpClientException;
 use GuzzleHttp\Client;

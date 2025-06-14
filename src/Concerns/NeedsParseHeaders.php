@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyHttp\GuzzleLayer\Concerns;
+namespace EasyHttp\GuzzleAdapter\Concerns;
 
 trait NeedsParseHeaders
 {

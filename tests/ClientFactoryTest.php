@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-use EasyHttp\GuzzleLayer\Factories\ClientFactory;
+use EasyHttp\GuzzleAdapter\Factories\ClientFactory;
 use GuzzleHttp\Client;
 
 class ClientFactoryTest extends TestCase

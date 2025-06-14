@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyHttp\GuzzleLayer\Factories;
+namespace EasyHttp\GuzzleAdapter\Factories;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;

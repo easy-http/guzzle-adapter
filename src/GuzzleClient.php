@@ -1,8 +1,8 @@
 <?php
 
-namespace EasyHttp\GuzzleLayer;
+namespace EasyHttp\GuzzleAdapter;
 
-use EasyHttp\GuzzleLayer\Factories\ClientFactory;
+use EasyHttp\GuzzleAdapter\Factories\ClientFactory;
 use EasyHttp\LayerContracts\AbstractClient;
 use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
 use EasyHttp\LayerContracts\Contracts\HttpClientRequest;

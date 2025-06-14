@@ -7,7 +7,7 @@ use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;
 use PHPUnit\Framework\TestCase;
-use EasyHttp\GuzzleLayer\GuzzleClient;
+use EasyHttp\GuzzleAdapter\GuzzleClient;
 use Tests\Mocks\PayPalApi;
 use Tests\Mocks\RatesApi;
 use Tests\Mocks\Responses\PayPalApiResponse;
