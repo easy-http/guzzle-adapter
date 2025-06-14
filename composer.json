@@ -1,5 +1,5 @@
 {
-    "name": "easy-http/guzzle-layer",
+    "name": "easy-http/guzzle-adapter",
     "description": "HTTP adapter for Guzzle Client",
     "type": "library",
     "license": "MIT",
