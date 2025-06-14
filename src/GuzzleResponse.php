@@ -1,8 +1,8 @@
 <?php
 
-namespace EasyHttp\GuzzleLayer;
+namespace EasyHttp\GuzzleAdapter;
 
-use EasyHttp\GuzzleLayer\Concerns\NeedsParseHeaders;
+use EasyHttp\GuzzleAdapter\Concerns\NeedsParseHeaders;
 use EasyHttp\LayerContracts\Contracts\HttpClientResponse;
 use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
 use Psr\Http\Message\ResponseInterface;

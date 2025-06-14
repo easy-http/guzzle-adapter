@@ -2,7 +2,7 @@
 
 namespace Tests\Mocks;
 
-use EasyHttp\GuzzleLayer\Concerns\NeedsParseHeaders;
+use EasyHttp\GuzzleAdapter\Concerns\NeedsParseHeaders;
 use Psr\Http\Message\RequestInterface;
 
 class HttpInfo extends BaseMock

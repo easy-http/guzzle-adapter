@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyHttp\GuzzleLayer;
+namespace EasyHttp\GuzzleAdapter;
 
 use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
 use EasyHttp\LayerContracts\Contracts\HttpClientRequest;
