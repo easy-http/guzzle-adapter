@@ -11,8 +11,8 @@
     ],
     "homepage": "https://pleets.org",
     "support": {
-        "issues": "https://github.com/easy-http/guzzle-layer/issues",
-        "source": "https://github.com/easy-http/guzzle-layer"
+        "issues": "https://github.com/easy-http/guzzle-adapter/issues",
+        "source": "https://github.com/easy-http/guzzle-adapter"
     },
     "authors": [
         {
