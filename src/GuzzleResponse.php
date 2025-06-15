@@ -3,8 +3,8 @@
 namespace EasyHttp\GuzzleAdapter;
 
 use EasyHttp\GuzzleAdapter\Concerns\NeedsParseHeaders;
-use EasyHttp\LayerContracts\Contracts\HttpClientResponse;
-use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
+use EasyHttp\Contracts\Contracts\HttpClientResponse;
+use EasyHttp\Contracts\Exceptions\ImpossibleToParseJsonException;
 use Psr\Http\Message\ResponseInterface;
 
 class GuzzleResponse implements HttpClientResponse

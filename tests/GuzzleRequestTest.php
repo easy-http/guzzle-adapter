@@ -4,8 +4,8 @@ namespace Tests;
 
 use EasyHttp\GuzzleAdapter\GuzzleAdapter;
 use EasyHttp\GuzzleAdapter\GuzzleRequest;
-use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
-use EasyHttp\LayerContracts\Contracts\HttpClientRequest;
+use EasyHttp\Contracts\Contracts\HttpClientAdapter;
+use EasyHttp\Contracts\Contracts\HttpClientRequest;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 
