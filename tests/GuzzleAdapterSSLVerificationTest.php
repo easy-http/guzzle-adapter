@@ -4,8 +4,8 @@ namespace Tests;
 
 use EasyHttp\GuzzleAdapter\GuzzleAdapter;
 use EasyHttp\GuzzleAdapter\GuzzleRequest;
-use EasyHttp\LayerContracts\Common\SecurityContext;
-use EasyHttp\LayerContracts\Exceptions\HttpClientException;
+use EasyHttp\Contracts\Common\SecurityContext;
+use EasyHttp\Contracts\Exceptions\HttpClientException;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use Tests\Mocks\CertificateApi;

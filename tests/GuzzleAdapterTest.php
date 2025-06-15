@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use EasyHttp\LayerContracts\Exceptions\HttpClientException;
-use EasyHttp\LayerContracts\Exceptions\HttpConnectionException;
+use EasyHttp\Contracts\Exceptions\HttpClientException;
+use EasyHttp\Contracts\Exceptions\HttpConnectionException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;

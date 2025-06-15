@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
-use EasyHttp\LayerContracts\Contracts\HttpClientRequest;
+use EasyHttp\Contracts\Contracts\HttpClientAdapter;
+use EasyHttp\Contracts\Contracts\HttpClientRequest;
 use PHPUnit\Framework\TestCase;
 use Tests\Concerns\HasMock;
 use Tests\Mocks\HttpInfo;

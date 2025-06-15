@@ -2,7 +2,7 @@
 
 namespace EasyHttp\GuzzleAdapter;
 
-use EasyHttp\LayerContracts\Common\ClientRequest;
+use EasyHttp\Contracts\Common\ClientRequest;
 
 class GuzzleRequest extends ClientRequest
 {

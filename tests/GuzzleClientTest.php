@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use EasyHttp\LayerContracts\Exceptions\HttpClientException;
-use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
+use EasyHttp\Contracts\Exceptions\HttpClientException;
+use EasyHttp\Contracts\Exceptions\ImpossibleToParseJsonException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;
 use PHPUnit\Framework\TestCase;

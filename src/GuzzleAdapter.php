@@ -2,11 +2,11 @@
 
 namespace EasyHttp\GuzzleAdapter;
 
-use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
-use EasyHttp\LayerContracts\Contracts\HttpClientRequest;
-use EasyHttp\LayerContracts\Contracts\HttpClientResponse;
-use EasyHttp\LayerContracts\Exceptions\HttpClientException;
-use EasyHttp\LayerContracts\Exceptions\HttpConnectionException;
+use EasyHttp\Contracts\Contracts\HttpClientAdapter;
+use EasyHttp\Contracts\Contracts\HttpClientRequest;
+use EasyHttp\Contracts\Contracts\HttpClientResponse;
+use EasyHttp\Contracts\Exceptions\HttpClientException;
+use EasyHttp\Contracts\Exceptions\HttpConnectionException;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;

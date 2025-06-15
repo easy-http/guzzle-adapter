@@ -3,9 +3,9 @@
 namespace EasyHttp\GuzzleAdapter;
 
 use EasyHttp\GuzzleAdapter\Factories\ClientFactory;
-use EasyHttp\LayerContracts\AbstractClient;
-use EasyHttp\LayerContracts\Contracts\HttpClientAdapter;
-use EasyHttp\LayerContracts\Contracts\HttpClientRequest;
+use EasyHttp\Contracts\AbstractClient;
+use EasyHttp\Contracts\Contracts\HttpClientAdapter;
+use EasyHttp\Contracts\Contracts\HttpClientRequest;
 
 class GuzzleClient extends AbstractClient
 {

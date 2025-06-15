@@ -4,7 +4,7 @@ namespace Tests;
 
 use EasyHttp\GuzzleAdapter\GuzzleAdapter;
 use EasyHttp\GuzzleAdapter\GuzzleRequest;
-use EasyHttp\LayerContracts\Exceptions\ImpossibleToParseJsonException;
+use EasyHttp\Contracts\Exceptions\ImpossibleToParseJsonException;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use PHPUnit\Framework\TestCase;
