@@ -23,7 +23,7 @@
 <a href="https://sonarcloud.io/component_measures?metric=bugs&branch=2.x&id=easy-http_guzzle-adapter"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_guzzle-adapter&metric=bugs&branch=2.x" alt="Bugs"></a>
 <a href="https://sonarcloud.io/component_measures?metric=code_smells&branch=2.x&id=easy-http_guzzle-adapter"><img src="https://sonarcloud.io/api/project_badges/measure?project=easy-http_guzzle-adapter&metric=code_smells&branch=2.x" alt="Bugs"></a>
 
-This is an HTTP adapter for Guzzle Client that implements the [HTTP client contracts](https://github.com/easy-http/layer-contracts).
+This is an HTTP adapter for Guzzle Client that implements the [HTTP client contracts](https://github.com/easy-http/contracts).
 These contracts standardize the way you consume HTTP clients like Guzzle, Symfony, and others by providing a consistent interface. The adapter pattern ensures that regardless of which HTTP client you're using,
 the methods and behavior remain consistent across all implementations.
 
@@ -44,5 +44,5 @@ composer require easy-http/guzzle-adapter
 
 # Usage
 
-This adapter implements the [HTTP Client Contracts](https://github.com/easy-http/layer-contracts).
+This adapter implements the [HTTP Client Contracts](https://github.com/easy-http/contracts).
 You can check all available features and behavior for the current version at [Easy Http Documentation](https://easy-http.com/docs).
